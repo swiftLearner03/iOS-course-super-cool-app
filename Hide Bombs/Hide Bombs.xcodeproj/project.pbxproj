@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C680A8A91C4C1220009E0D85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680A8A81C4C1220009E0D85 /* AppDelegate.swift */; };
+		C680A8AB1C4C1220009E0D85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C680A8AA1C4C1220009E0D85 /* ViewController.swift */; };
+		C680A8AE1C4C1220009E0D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C680A8AC1C4C1220009E0D85 /* Main.storyboard */; };
+		C680A8B01C4C1220009E0D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C680A8AF1C4C1220009E0D85 /* Assets.xcassets */; };
+		C680A8B31C4C1220009E0D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C680A8B11C4C1220009E0D85 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C680A8A51C4C1220009E0D85 /* Hide Bombs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide Bombs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C680A8A81C4C1220009E0D85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C680A8AA1C4C1220009E0D85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C680A8AD1C4C1220009E0D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C680A8AF1C4C1220009E0D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C680A8B21C4C1220009E0D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C680A8B41C4C1220009E0D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C680A8A21C4C1220009E0D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C680A89C1C4C1220009E0D85 = {
+			isa = PBXGroup;
+			children = (
+				C680A8A71C4C1220009E0D85 /* Hide Bombs */,
+				C680A8A61C4C1220009E0D85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C680A8A61C4C1220009E0D85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C680A8A51C4C1220009E0D85 /* Hide Bombs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C680A8A71C4C1220009E0D85 /* Hide Bombs */ = {
+			isa = PBXGroup;
+			children = (
+				C680A8A81C4C1220009E0D85 /* AppDelegate.swift */,
+				C680A8AA1C4C1220009E0D85 /* ViewController.swift */,
+				C680A8AC1C4C1220009E0D85 /* Main.storyboard */,
+				C680A8AF1C4C1220009E0D85 /* Assets.xcassets */,
+				C680A8B11C4C1220009E0D85 /* LaunchScreen.storyboard */,
+				C680A8B41C4C1220009E0D85 /* Info.plist */,
+			);
+			path = "Hide Bombs";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C680A8A41C4C1220009E0D85 /* Hide Bombs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C680A8B71C4C1220009E0D85 /* Build configuration list for PBXNativeTarget "Hide Bombs" */;
+			buildPhases = (
+				C680A8A11C4C1220009E0D85 /* Sources */,
+				C680A8A21C4C1220009E0D85 /* Frameworks */,
+				C680A8A31C4C1220009E0D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hide Bombs";
+			productName = "Hide Bombs";
+			productReference = C680A8A51C4C1220009E0D85 /* Hide Bombs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C680A89D1C4C1220009E0D85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Big Smile Games";
+				TargetAttributes = {
+					C680A8A41C4C1220009E0D85 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C680A8A01C4C1220009E0D85 /* Build configuration list for PBXProject "Hide Bombs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C680A89C1C4C1220009E0D85;
+			productRefGroup = C680A8A61C4C1220009E0D85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C680A8A41C4C1220009E0D85 /* Hide Bombs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C680A8A31C4C1220009E0D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C680A8B31C4C1220009E0D85 /* LaunchScreen.storyboard in Resources */,
+				C680A8B01C4C1220009E0D85 /* Assets.xcassets in Resources */,
+				C680A8AE1C4C1220009E0D85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C680A8A11C4C1220009E0D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C680A8AB1C4C1220009E0D85 /* ViewController.swift in Sources */,
+				C680A8A91C4C1220009E0D85 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C680A8AC1C4C1220009E0D85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C680A8AD1C4C1220009E0D85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C680A8B11C4C1220009E0D85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C680A8B21C4C1220009E0D85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C680A8B51C4C1220009E0D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C680A8B61C4C1220009E0D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C680A8B81C4C1220009E0D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hide Bombs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sillytoolstvos.Hide-Bombs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C680A8B91C4C1220009E0D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hide Bombs/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sillytoolstvos.Hide-Bombs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C680A8A01C4C1220009E0D85 /* Build configuration list for PBXProject "Hide Bombs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C680A8B51C4C1220009E0D85 /* Debug */,
+				C680A8B61C4C1220009E0D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C680A8B71C4C1220009E0D85 /* Build configuration list for PBXNativeTarget "Hide Bombs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C680A8B81C4C1220009E0D85 /* Debug */,
+				C680A8B91C4C1220009E0D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C680A89D1C4C1220009E0D85 /* Project object */;
+}
